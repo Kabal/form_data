@@ -4,7 +4,7 @@ defmodule FormData.Mixfile do
   def project do
     [app: :form_data,
      version: "0.1.1",
-     elixir: "~> 0.14.2",
+     elixir: "~> 1.2",
      name: "FormData",
      description: "Build a multipart/form-data form struct in Elixir.",
      package: package,
