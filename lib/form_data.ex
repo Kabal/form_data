@@ -61,10 +61,10 @@ defmodule FormData do
     }
   end
 
-  def headers(form_data = %FormData{}) do
-    complete(form_data)
-    |> headers
-  end
+  #  def headers(form_data = %FormData{}) do
+  #    complete(form_data)
+  #    |> headers
+  #  end
 
   defp append(body, data) do
     body <> data

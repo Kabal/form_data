@@ -28,7 +28,7 @@ defmodule FormData.Mixfile do
   #
   # Type `mix help deps` for more examples and options
   defp deps do
-    [ { :mime, github: "dynamo/mime" } ]
+    [ { :mime, github: "Kabal/mime" } ]
   end
 
   defp package do
